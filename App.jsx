@@ -1,23 +1,23 @@
 import { useState } from 'react';
-import { DB } from './lib/db';
+import { DB } from './db';
 import { AppProvider, useApp } from './AppContext';
 
-import Dashboard from './pages/Dashboard';
-import Clientes from './pages/Clientes';
-import Leads from './pages/Leads';
-import Orcamentos from './pages/Orcamentos';
-import Projetos from './pages/Projetos';
-import Central from './pages/Central';
-import Compras from './pages/Compras';
-import Receber from './pages/Receber';
-import Pagar from './pages/Pagar';
-import Fluxo from './pages/Fluxo';
-import Giro from './pages/Giro';
-import Prolabore from './pages/Prolabore';
-import Lucros from './pages/Lucros';
-import Despesas from './pages/Despesas';
-import Relatorios from './pages/Relatorios';
-import ConfigPage from './pages/ConfigPage';
+import Dashboard from './Dashboard';
+import Clientes from './Clientes';
+import Leads from './Leads';
+import Orcamentos from './Orcamentos';
+import Projetos from './Projetos';
+import Central from './Central';
+import Compras from './Compras';
+import Receber from './Receber';
+import Pagar from './Pagar';
+import Fluxo from './Fluxo';
+import Giro from './Giro';
+import Prolabore from './Prolabore';
+import Lucros from './Lucros';
+import Despesas from './Despesas';
+import Relatorios from './Relatorios';
+import ConfigPage from './ConfigPage';
 
 const NAV = [
   { id: 'dashboard', label: 'Dashboard', icon: '🏠', sub: 'Visão geral do negócio', C: Dashboard },
