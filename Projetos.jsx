@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, fmtDate, todayISO, projetoCusto, PROJ_ETAPAS } from '../lib/db';
-import { Empty } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, fmtDate, todayISO, projetoCusto, PROJ_ETAPAS } from './db';
+import { Empty } from './components';
+import { useApp } from './AppContext';
 
 function pctEtapa(et) { const i = PROJ_ETAPAS.indexOf(et); return Math.round(((i + 1) / PROJ_ETAPAS.length) * 100); }
 
