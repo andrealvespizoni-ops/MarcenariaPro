@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, fmtDate, clienteResumo, calcOrcamento } from '../lib/db';
-import { Kpi, Empty } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, fmtDate, clienteResumo, calcOrcamento } from './db';
+import { Kpi, Empty } from './components';
+import { useApp } from './AppContext';
 
 function ClienteForm({ cliente }) {
   const { refresh, closeModal, toast } = useApp();
