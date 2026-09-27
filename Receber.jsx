@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, fmtDate, todayISO, monthKey } from '../lib/db';
-import { Kpi, Empty } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, fmtDate, todayISO, monthKey } from './db';
+import { Kpi, Empty } from './components';
+import { useApp } from './AppContext';
 
 function ReceberForm({ item }) {
   const { refresh, closeModal, toast } = useApp();
