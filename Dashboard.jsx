@@ -1,9 +1,9 @@
 import {
   DB, fmtBRL, todayISO, addDays, monthKey, last6Months,
   faturamentoPeriodo, lucroDemonstrativo, capitalDeGiro, saldoCaixa,
-} from '../lib/db';
-import { Kpi } from '../components';
-import { LineChart, BarChart, PieChart } from '../charts';
+} from './db';
+import { Kpi } from './components';
+import { LineChart, BarChart, PieChart } from './charts';
 
 export default function Dashboard() {
   const now = new Date();
