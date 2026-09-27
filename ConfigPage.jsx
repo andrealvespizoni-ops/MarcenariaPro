@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { DB } from '../lib/db';
-import { useApp } from '../AppContext';
+import { DB } from './db';
+import { useApp } from './AppContext';
 
 export default function ConfigPage() {
   const { toast, refresh } = useApp();
