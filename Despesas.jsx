@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, todayISO } from '../lib/db';
-import { Kpi, Empty } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, todayISO } from './db';
+import { Kpi, Empty } from './components';
+import { useApp } from './AppContext';
 
 const DESP_CATS = ['Aluguel', 'Energia', 'Internet', 'Contabilidade', 'Sistemas', 'Telefone', 'Marketing', 'Salários', 'Pró-labore', 'Outros'];
 
