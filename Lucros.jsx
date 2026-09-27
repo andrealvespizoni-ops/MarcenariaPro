@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DB, fmtBRL, todayISO, lucroDemonstrativo, projetoCusto } from '../lib/db';
+import { DB, fmtBRL, todayISO, lucroDemonstrativo, projetoCusto } from './db';
 
 export default function Lucros() {
   const now = new Date();
