@@ -3,9 +3,9 @@ import jsPDF from 'jspdf';
 import {
   DB, fmtBRL, fmtDate, todayISO, addDays, calcOrcamento, converterEmProjeto, gerarPDFOrcamento,
   ORC_STATUS, ITEM_CATS,
-} from '../lib/db';
-import { Empty } from '../components';
-import { useApp } from '../AppContext';
+} from './db';
+import { Empty } from './components';
+import { useApp } from './AppContext';
 
 const STATUS_MAP = { Aprovado: 'ok', Recusado: 'bad', Expirado: 'bad', 'Em negociação': 'warn', Enviado: 'info', Rascunho: 'neutral' };
 
