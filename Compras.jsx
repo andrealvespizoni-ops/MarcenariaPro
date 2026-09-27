@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, fmtDate, todayISO, ITEM_CATS } from '../lib/db';
-import { Empty } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, fmtDate, todayISO, ITEM_CATS } from './db';
+import { Empty } from './components';
+import { useApp } from './AppContext';
 
 const COMPRA_CATS = ITEM_CATS.filter((x) => !['Central de serviços', 'Frete', 'Montagem', 'Instalação'].includes(x)).concat(['Materiais diversos']);
 
