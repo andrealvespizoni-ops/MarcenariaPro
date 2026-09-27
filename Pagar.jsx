@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, fmtDate, todayISO, monthKey, CP_CATS } from '../lib/db';
-import { Kpi, Empty } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, fmtDate, todayISO, monthKey, CP_CATS } from './db';
+import { Kpi, Empty } from './components';
+import { useApp } from './AppContext';
 
 function PagarForm({ item }) {
   const { refresh, closeModal, toast } = useApp();
