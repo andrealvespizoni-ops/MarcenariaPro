@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, fmtDate, todayISO, monthKey, CENTRAL_STATUS } from '../lib/db';
-import { Kpi, Empty } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, fmtDate, todayISO, monthKey, CENTRAL_STATUS } from './db';
+import { Kpi, Empty } from './components';
+import { useApp } from './AppContext';
 
 function ServicoForm({ servico }) {
   const { refresh, closeModal, toast } = useApp();
