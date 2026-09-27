@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, fmtDate, todayISO, LEAD_STATUS } from '../lib/db';
-import { Kpi } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, fmtDate, todayISO, LEAD_STATUS } from './db';
+import { Kpi } from './components';
+import { useApp } from './AppContext';
 
 function LeadForm({ lead }) {
   const { refresh, closeModal, toast, openModal } = useApp();
