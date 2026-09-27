@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DB, fmtBRL, capitalDeGiro } from '../lib/db';
-import { Kpi } from '../components';
-import { useApp } from '../AppContext';
+import { DB, fmtBRL, capitalDeGiro } from './db';
+import { Kpi } from './components';
+import { useApp } from './AppContext';
 
 export default function Giro() {
   const { refresh, toast } = useApp();
