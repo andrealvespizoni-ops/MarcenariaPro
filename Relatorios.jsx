@@ -2,8 +2,8 @@ import { useState, useRef } from 'react';
 import {
   DB, fmtBRL, fmtDate, todayISO, calcOrcamento, capitalDeGiro, lucroDemonstrativo, movimentacoes,
   csvEscape, downloadFile,
-} from '../lib/db';
-import { useApp } from '../AppContext';
+} from './db';
+import { useApp } from './AppContext';
 
 const REPORTS = [
   ['Faturamento', 'faturamento'], ['Lucro & Margem', 'lucro'], ['Vendas & Orçamentos', 'vendas'],
