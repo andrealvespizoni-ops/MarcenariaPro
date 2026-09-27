@@ -1,6 +1,6 @@
-import { DB, fmtBRL, fmtDate, todayISO, addDays, saldoCaixa, movimentacoes } from '../lib/db';
-import { Kpi } from '../components';
-import { LineChart } from '../charts';
+import { DB, fmtBRL, fmtDate, todayISO, addDays, saldoCaixa, movimentacoes } from './db';
+import { Kpi } from './components';
+import { LineChart } from './charts';
 
 export default function Fluxo() {
   const cr = DB.all('contasReceber'), cp = DB.all('contasPagar');
